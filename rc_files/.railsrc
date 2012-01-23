@@ -1,0 +1,3 @@
+--skip-bundle
+-T
+-d postgresql
