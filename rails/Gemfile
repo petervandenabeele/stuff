@@ -1,0 +1,20 @@
+# Additional gems for Rails 4.0.0.beta
+
+# gem 'haml-rails' # see https://github.com/indirect/haml-rails/issues/20
+gem 'nokogiri'
+
+# tools for testing
+group :development, :test do
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'factory_girl_rails'
+  gem 'guard-rspec'
+  gem 'guard-spork'
+  gem 'spork', '~> 0.9.0.rc'
+
+# on Linux
+  gem 'rb-inotify' unless RUBY_PLATFORM.include?("x86_64-darwin")
+  gem 'libnotify' unless RUBY_PLATFORM.include?("x86_64-darwin")
+end
