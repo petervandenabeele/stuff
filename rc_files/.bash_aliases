@@ -13,6 +13,9 @@ alias rcd='rails c development'
 alias rct='rails c test'
 alias rcp='rails c production'
 
+# JAVA_HOME for HBase/JRuby/rubymine
+export JAVA_HOME='/usr/lib/jvm/java-6-sun/jre'
+
 # gaming
 alias shoes='~/b/github/shoes/shoes/dist/shoes'
 
