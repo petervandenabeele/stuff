@@ -3,6 +3,9 @@ if [ -f ~/.bash_local ]; then
     . ~/.bash_local
 fi
 
+# PS1
+PS1='\w\$ '
+
 # general
 alias l='ls -l'
 export LESS='-R' # see color logging properly
