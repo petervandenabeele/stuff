@@ -9,4 +9,4 @@ autocmd BufWinLeave * call clearmatches()
 
 call pathogen#infect()
 syntax on
-filetype plugin indent on
+filetype plugin indent off
