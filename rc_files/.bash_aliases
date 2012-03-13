@@ -19,6 +19,9 @@ alias rcp='rails c production'
 # JAVA_HOME for HBase/JRuby/rubymine
 export JAVA_HOME='/usr/lib/jvm/java-6-sun/jre'
 
+# HADOOP_HOME
+export HADOOP_HOME='/usr/lib/hadoop'
+
 # gaming
 alias shoes='~/b/github/shoes/shoes/dist/shoes'
 
