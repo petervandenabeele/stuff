@@ -4,7 +4,7 @@ if [ -f ~/.bash_local ]; then
 fi
 
 # PS1
-PS1='\w\$ '
+# PS1='\w\$ '
 
 # general
 alias l='ls -l'
@@ -21,6 +21,11 @@ export JAVA_HOME='/usr/lib/jvm/java-6-sun/jre'
 
 # HADOOP_HOME
 export HADOOP_HOME='/usr/lib/hadoop'
+export HADOOP_INSTALL=$HADOOP_HOME
+
+# HBASE_HOME
+export HBASE_HOME='/usr/lib/hbase'
+export HBASE_INSTALL=$HBASE_HOME
 
 # gaming
 alias shoes='~/b/github/shoes/shoes/dist/shoes'
