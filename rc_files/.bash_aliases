@@ -37,3 +37,9 @@ alias shoes='~/b/github/shoes/shoes/dist/shoes'
 export PATH=$HOME/local/bin:$PATH
 export NODE_PATH=$HOME/local/lib/node_modules
 
+# Scala - sbt
+export SCALA_HOME=$JAVA_HOME
+export PATH=$HOME/bin:$PATH
+
+# JRuby compat mode 1.9
+export JRUBY_OPTS=--1.9
