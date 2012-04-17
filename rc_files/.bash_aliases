@@ -11,10 +11,14 @@ alias l='ls -l'
 export LESS='-R' # see color logging properly
 HISTSIZE=10000
 
-# Rails console
+# Rails console/server
 alias racd='rails c development'
 alias ract='rails c test'
 alias racp='rails c production'
+
+alias rasd='rails s development'
+alias rast='rails s development'
+alias rasp='rails s production'
 
 # JAVA_HOME for HBase/JRuby/rubymine
 export JAVA_HOME='/usr/lib/jvm/java-6-sun/jre'
