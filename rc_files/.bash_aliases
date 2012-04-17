@@ -16,9 +16,9 @@ alias racd='rails c development'
 alias ract='rails c test'
 alias racp='rails c production'
 
-alias rasd='rails s development'
-alias rast='rails s development'
-alias rasp='rails s production'
+alias rasd='rails s -e development'
+alias rast='rails s -e test'
+alias rasp='rails s -e production'
 
 # JAVA_HOME for HBase/JRuby/rubymine
 export JAVA_HOME='/usr/lib/jvm/java-6-sun/jre'
