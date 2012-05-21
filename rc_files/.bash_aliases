@@ -41,7 +41,8 @@ alias shoes='~/b/github/shoes/shoes/dist/shoes'
 # Use system locations for now
 # export PATH=$HOME/local/bin:$PATH
 # export NODE_PATH=$HOME/local/lib/node_modules
-export NODE_PATH=/usr/local/lib/node_modules/
+export NODE_PATH=$HOME/node_modules:/usr/local/lib/node_modules/
+export PATH=$HOME/node_modules/nodeunit/bin:$PATH
 
 # Scala - sbt
 export SCALA_HOME=$JAVA_HOME
