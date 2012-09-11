@@ -21,7 +21,9 @@ alias rast='rails s -e test'
 alias rasp='rails s -e production'
 
 # JAVA_HOME for HBase/JRuby/rubymine
-export JAVA_HOME='/usr/lib/jvm/java-6-sun/jre'
+# do NOT do this: export JAVA_HOME='/usr/lib/jvm/java-6-sun/jre'
+# do THIS in /etc/environment
+# JAVA_HOME="/usr/lib/jvm/java-7-oracle" 
 
 # HADOOP_HOME
 export HADOOP_HOME='/usr/lib/hadoop'
