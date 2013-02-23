@@ -2,16 +2,14 @@
 
 # tested with ruby 2.0.0-rc2 (using rvm om Mac OS X)
 
-```
-bundle install
-vim config/database.yml # for postgresql database settings
-rake db:create
-rake db:migrate
-RAILS_ENV=test rake db:migrate
-bundle exec guard # for running the tests, should all pass
-rails server
-firefox localhost:3000/banking  # ar other browser
-```
+  bundle install
+  vim config/database.yml # for postgresql database settings
+  rake db:create
+  rake db:migrate
+  RAILS_ENV=test rake db:migrate
+  bundle exec guard # for running the tests, should all pass
+  rails server
+  firefox localhost:3000/banking  # ar other browser
 
 == Adding a user
 
