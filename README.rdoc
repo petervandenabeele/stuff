@@ -2,7 +2,7 @@
 
 # tested with ruby 2.0.0-rc2 (using rvm om Mac OS X)
 
-```bash
+```
 bundle install
 vim config/database.yml # for postgresql database settings
 rake db:create
