@@ -9,5 +9,6 @@ autocmd BufWinLeave * call clearmatches()
 
 call pathogen#infect()
 syntax on
+set ruler
 filetype on
 filetype plugin indent off
