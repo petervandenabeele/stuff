@@ -1,0 +1,10 @@
+[user]
+	name = Peter Vandenabeele
+	email = peter@vandenabeele.com
+[push]
+	default = current
+[core]
+	excludesfile = /Users/peter_v/.gitignore_global
+	editor = vim
+[url "https://"]
+	insteadOf = git://
