@@ -37,8 +37,9 @@
 * brew install bash
 * brew install bash-completion
 * fix the ~/.bash_profile (http://superuser.com/questions/288438/bash-completion-for-commands-in-mac-os-x)
-* fix git user:
+* fix git defaults:
 ```
 git config --global user.name "Peter Vandenabeele"
 git config --global user.email peter@vandenabeele.com
+git config --global push.default simple
 ```
