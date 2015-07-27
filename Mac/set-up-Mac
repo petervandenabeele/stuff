@@ -1,0 +1,44 @@
+* login as user/Administrator
+* set-up password
+* Enter wireless password
+* do App Store update if needed
+* download Google Chrome (from Safari)
+* while waitng, make Dock auto disappear
+  (settings, Dock, auto)
+* set key repeat faster
+* Show Bluetooth in menu bar
+* double click googlechrome.dmg and move the app to App folder
+* install Java 8 from Oracle
+* download IntelliJ (14.1.4) + install the dmg
+* turn off some of the plug-ins, but download the Scala plug-in
+* swap keys on external (USB ISO 101) keyboards
+  (Modifier keys option <==> Command)
+* install brew
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+* fix some directories to chmod g+w (to allow installing brew packages from different users)
+* brew install git
+* install AdBlock (getadblock.com)
+* install gitx-dev (rowanj fork)  http://rowanj.github.io/gitx/
+  (download package, dmg)
+* ln -s data/github/ g
+* ln -s /Users/peter_v/data/github/petervandenabeele p
+* ln -s data/github/petervandenabeele/AllMyData/ AMD
+* install ssh key in .ssh with chmod 600
+* copy my books in ~/data/books
+
+* Get Spark Notebook http://spark-notebook.io/dl/tgz/0.6.0/2.10.4/1.4.1/2.7.1/false/true
+* peter_v$ ln -s Documents/programs/spark/spark-notebook-0.6.0-scala-2.10.4-spark-1.4.1-hadoop-2.7.1-with-parquet notebook
+* log into github (with 2FA)
+* make some large word files http://www-01.sil.org/linguistics/wordlists/english/
+* brew install scala
+* brew install hadoop
+* brew install sbt
+* brew install wget
+* brew install bash
+* brew install bash-completion
+* fix the ~/.bash_profile (http://superuser.com/questions/288438/bash-completion-for-commands-in-mac-os-x)
+* fix git user:
+```
+git config --global user.name "Peter Vandenabeele"
+git config --global user.email peter@vandenabeele.com
+```
