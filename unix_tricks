@@ -1,5 +1,9 @@
 Netcat:
 
-* listener: `nc -l 4000`
-* server: `nc -l < success.html`
-* client: `nc localhost 4000`  then type : foo <nl> bar <nl> ping <Ctrl-D> to end stream`
+$ listener: `nc -l 4000`
+$ server: `nc -l < success.html`
+$ client: `nc localhost 4000`  then type : foo <nl> bar <nl> ping <Ctrl-D> to end stream`
+
+Mac OS X:
+
+$  sudo lsof -i -P | grep -i "listen"
