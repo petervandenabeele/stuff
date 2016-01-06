@@ -1,0 +1,35 @@
+* git remote -v
+* on server
+  * mkdir git-advanved.git
+  * cd git-advanced.git
+  * git init --bare .
+* git remote add origin peter_v@10.1.1.250:/data/git/git-advanced.git
+
+Switch to revenue-model
+* git branch -a
+* git pull = git fetch + git merge
+* git rebase origin/master
+* fast forward
+
+* git ignore (global ~/.git)
+* cat ~/.gitconfig
+* cat ~/.gitignore_global
+
+* git rebase -i
+  (--continue --abort --skip)
+* clean up large binary commits
+* git push force
+
+* IGNORE case (on Mac) !!
+
+* rebase versus merge pro and con
+  * rebase frequently with /01 /02 branches
+  * squash if needed
+  * tests can be run locally by developer
+    (also possible with "git merge master")
+
+* branch name -pv-
+* branch name /01  (why never first without / and the with /)
+
+* git cherry-pick
+* git log --author
