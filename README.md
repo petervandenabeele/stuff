@@ -4,8 +4,6 @@ Some generally useful files for git, ruby, rails, rspec development
 
 Helpful . files for the home dir (for vim, rails, gem, bash)
 
-Also has HADOOP_HOME, HBASE_HOME etc.
-
 # Rails
 
 ## config/initializers
