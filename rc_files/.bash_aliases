@@ -7,3 +7,6 @@ fi
 alias l='ls -l'
 export LESS='-R' # see color logging properly
 HISTSIZE=10000
+
+# git
+alias gst='git status'
