@@ -35,6 +35,9 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set undofile
+set foldmethod=indent
+set foldcolumn=1
+set nofoldenable
 
 let mapleader = ","
 
