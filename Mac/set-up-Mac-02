@@ -10,37 +10,5 @@
 * install brew (google "install homebrew Mac")
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 * brew install git
-
-* set key repeat faster
-* Show Bluetooth in menu bar
-* install Java 8 from Oracle
-* download IntelliJ (14.1.4) + install the dmg
-  (set up SDK with this dir /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/)
-* turn off some of the plug-ins, but download the Scala plug-in
-* swap keys on external (USB ISO 101) keyboards
-  (Modifier keys option <==> Command)
-* install AdBlock (getadblock.com)
-* install gitx-dev (rowanj fork)  http://rowanj.github.io/gitx/
-  (download package, dmg)
-* ln -s data/github/ g
-* ln -s /Users/peter_v/data/github/petervandenabeele p
-* ln -s data/github/petervandenabeele/AllMyData/ AMD
-* install ssh key in .ssh with chmod 600
-* copy my books in ~/data/books
-* log into github (with 2FA)
-* make some large word files http://www-01.sil.org/linguistics/wordlists/english/
-* brew install scala
-* brew install hadoop
-* brew install sbt
-* brew install wget
-* brew install bash
-* brew install bash-completion
-* fix the ~/.bash_profile (http://superuser.com/questions/288438/bash-completion-for-commands-in-mac-os-x)
-* fix git defaults:
-```
-git config --global user.name "Peter Vandenabeele"
-git config --global user.email peter@vandenabeele.com
-git config --global push.default simple
-```
-* brew install python (for the pip)
-* pip install requests
+* download and install Firefox (56.0.2. dmg open install)
+... see set-up version 01
