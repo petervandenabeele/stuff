@@ -1,0 +1,26 @@
+Host *
+    ServerAliveCountMax 4
+    ServerAliveInterval 15
+    UseKeychain yes
+
+Host foobar
+    Hostname foobar.provider.be
+    User data
+    ForwardAgent yes
+
+Host git-as-other-user
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_of_other_user
+  IdentitiesOnly yes
+
+Host docker-runner...
+  User core
+
+Host company.jump
+  Hostname jump.company.be
+  ForwardAgent yes
+  
+Host *.company.be
+  ProxyCommand ssh -q -W %h:%p company.jump
+  ForwardAgent yes
