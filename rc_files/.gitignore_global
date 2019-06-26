@@ -1,4 +1,5 @@
 *.swp
 *.un~
-.idea
 .DS_store
+.~lock*
+__pycache__
