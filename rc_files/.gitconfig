@@ -12,6 +12,10 @@
 #[url "https://"]
 # 	insteadOf = git://
 
+# On windows 10 with Git Bash, may need this to avoid SSL issues
+#[http]
+#  sslbackend = schannel
+
 #[filter "media"]
 #  required = true
 #  clean = git media clean %f
