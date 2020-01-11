@@ -6,7 +6,11 @@ fi
 # general
 alias l='ls -l'
 export LESS='-R' # see color logging properly
-HISTSIZE=10000
+HISTSIZE=100000
 
 # git
+alias ga='git add -i'
+alias gb='git branch -a'
+alias gc='git commit -v'
+alias gp='git push'
 alias gst='git status'
