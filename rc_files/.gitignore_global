@@ -3,3 +3,4 @@
 .DS_store
 .~lock*
 __pycache__
+.idea
